@@ -4,11 +4,13 @@
 <meta charset ="utf-8">
 <meta name="viewport" content="with=divice-with,intial-scale=1.0">
 <!--<meta http-equiv="refresh" content="3"-->
-
 <link href="style.css" rel="stylesheet">
 <title>html/CSS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="parallax">
     <header>
         <div class="header">
         <div>
@@ -16,9 +18,9 @@
         </div>
         <div>
             <nav>
-                <ul class="link" >
-                   <button> <li><a href="index.html">Accueil</a></li></button>
-                    <button><a href="navigation/Services.html">Services</a></li></button>
+                <ul class="toto" >
+                    <button><li><a href="index.html">Accueil</a></li></button>
+                    <button><li><a href="navigation/Services.html">Services</a></li></button>
                     <button><li><a href="navigation/Produits.html">Produits</a></li></button>
                     <button><li><a href="navigation/Contact.html">Contact</a></li></button>
                 </ul>
@@ -26,25 +28,37 @@
         </div>
         </div>
     </header>
-    <h1>
-        Une voiture de luxe à petit prix
-    </h1>
-    <hr>
-    <div class="voiture"  > 
-        <img class="image-droite" src="navigation/image/voiture jaune.jfif" alt="jaune">
-        <img class="image-gauche" src="navigation/image/voiture noire.jfif" alt="noire">
-
-    </div>
+    <main>
+        <h1>
+            Une voiture de luxe à petit prix
+        </h1>
+        <hr>
+        <section class="voiture">
+            <div class="voiture-droite"  > 
+                
+                <img class="image-droite" src="navigation/image/voiture jaune.jfif" alt="jaune" >
+                <p> 
+                    <b>la voiture jaune que j'aime</b>                </p>
+            </div> 
+            <div class="voiture-noire">
+                <img class="image-gauche" src="navigation/image/voiture noire.jfif" alt="noire">
+                <p>
+                     <b>la voiture noire que j'aime</b>
+                </p>
+        
+            </div>
+        </section>
+        <section class="linearSection">
+            <button> 
+                <a href="navigation/Services.html">Services</a>
+            </button>
+        </section>
+    </main>
+    
     <div>
         <p>
-            <h3>
-            Lorsque nous parlons de voiture de luxe,
-             chaque personne a une vision propre de ce qu’il s’agit.
-            <br>Une voiture de luxe, aussi appelée voiture haut de gamme,
-             est un véhicule qui a de nombreuses caractéristiques spécifiques. 
-             <br>Ce sont ces caractéristiques qui la diffèrent d’une voiture dite normale.
-             Voici tout ce dont vous devez savoir sur les voitures de luxe.
-            </h3>
+           
+           
         </p>
     </div>
 </body>
